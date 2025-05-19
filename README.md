@@ -14,6 +14,7 @@
 2. If you use anaconda3 or miniconda, you can run following instructions to download the required packages in python.
     ```bash
         conda create -n label-noise python=3.9
+        conda activate label-noise
         pip install torch torchvision torchaudio numpy matplotlib pandas shap
     ```
 
